@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+</head>
+
+<body class="bg-neutral-900">
+
+    <main class="h-screen pt-2  flex flex-col justify-around ">
+        
+        <header class=" text-center">
+            <h1 class="text-white text-3xl">The webCounter</h1>
+            <ul class="flex justify-center text-white ">
+                <li><ion-icon id="refresh" class="hover:cursor-pointer" size="large" name="refresh-outline"></ion-icon></i></li>
+                <li><ion-icon id="help" class="hover:cursor-pointer" size="large" name="help-outline"></ion-icon></li>
+                <li><ion-icon id="light" class="hover:cursor-pointer" size="large" name="moon-outline"></ion-icon></li>
+            </ul>
+        </header>
+
+        <div id="resultBox" class="w-56 h-56 bg-blue-800 flex justify-center items-center text-white rounded-full mx-auto">0</div>
+
+        <div class="flex justify-center items-center gap-5">
+            <div id="plus" class="w-12 h-12 bg-gray-900 text-white hover:cursor-pointer rounded-full flex justify-center items-center">+</div>
+            <div id="minus" class="w-12 h-12 bg-red-900 text-white  hover:cursor-pointer rounded-full flex justify-center items-center">-</div>
+            <div id="reset" class="w-12 h-12 bg-blue-900 text-white hover:cursor-pointer text-sm rounded-full flex justify-center items-center">Reset</div>
+        </div>
+    
+    </main>
+    
+</body>
+</html>
